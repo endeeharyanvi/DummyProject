@@ -16,7 +16,6 @@
             <value>
                 <fullName>Yes</fullName>
                 <default>true</default>
-                <label>Yes</label>
             </value>
         </valueSetDefinition>
     </valueSet>
