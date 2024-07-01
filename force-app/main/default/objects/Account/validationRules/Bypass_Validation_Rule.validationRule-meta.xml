@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bypass_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>!$Setup.Global_Validation_Rules_Exception__c.Run_Validation_Rules__c==false &amp;&amp; ISCHANGED(Name)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Account Name cannot be changed</errorMessage>
+</ValidationRule>
