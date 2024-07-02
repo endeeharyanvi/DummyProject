@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Active__c</fullName>
-    <label>Active</label>
+    <fullName>Level__c</fullName>
+    <label>Level</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
@@ -9,14 +9,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>No</fullName>
+                <fullName>Secondary</fullName>
                 <default>false</default>
-                <label>No</label>
+                <label>Secondary</label>
             </value>
             <value>
-                <fullName>Yes</fullName>
-                <default>true</default>
-                <label>Yes</label>
+                <fullName>Tertiary</fullName>
+                <default>false</default>
+                <label>Tertiary</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
             </value>
         </valueSetDefinition>
     </valueSet>
